@@ -1408,6 +1408,11 @@ void speak_text(const char *text)
     UNUSED_PARAMETER(text);
 }
 
+void set_continuous_swipe_enabled(bool is_enabled)
+{
+	UNUSED_PARAMETER(is_enabled);
+}
+
 //
 // Pro HAL (See also src/pro.h)
 //
