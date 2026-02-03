@@ -1365,3 +1365,8 @@ void speak_text(const char *msg)
 {
 	UNUSED_PARAMETER(msg);
 }
+
+void set_continuous_swipe_enabled(bool is_enabled)
+{
+	UNUSED_PARAMETER(is_enabled);
+}

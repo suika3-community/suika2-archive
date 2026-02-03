@@ -39,6 +39,8 @@
 #define POLARIS_ENGINE_TARGET_ANDROID
 #elif defined(__EMSCRIPTEN__)
 #define POLARIS_ENGINE_TARGET_WASM
+#elif defined(__linux__)
+#define POLARIS_ENGINE_TARGET_POSIX
 #elif defined(USE_UNITY)
 #define POLARIS_ENGINE_TARGET_UNITY
 #else
